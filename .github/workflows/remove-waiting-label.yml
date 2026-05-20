@@ -1,3 +1,4 @@
+#new
 name: Remove "waiting for author" label on review request
 
 on:
@@ -11,7 +12,6 @@ permissions:
 
 jobs:
   remove-label:
-    # Skip draft PRs and bot-triggered events
     if: ${{ !github.event.pull_request.draft }}
     runs-on: ubuntu-latest
 
