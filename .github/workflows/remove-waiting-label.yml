@@ -1,7 +1,7 @@
 name: Remove "waiting for author" label on review request
 
 on:
-  pull_request_target:
+  pull_request:
     types: [review_requested]
   workflow_dispatch:
 
