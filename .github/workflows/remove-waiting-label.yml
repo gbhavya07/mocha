@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Remove "status: waiting for author" label
+      - name: 'Remove "status: waiting for author" label'
         uses: actions/github-script@v7
         with:
           script: |
